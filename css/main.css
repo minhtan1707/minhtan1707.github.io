@@ -1,0 +1,283 @@
+nav {
+  background: #87509c;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  text-align: center; }
+  nav .nav_wrap {
+    display: flex; }
+    nav .nav_wrap ul {
+      margin-left: auto;
+      list-style: none; }
+      nav .nav_wrap ul li {
+        text-align: center;
+        display: inline-block;
+        margin: 10px 10px;
+        width: 70px;
+        border-radius: 5px;
+        padding: 3px 0 6px 0; }
+        nav .nav_wrap ul li a {
+          color: white;
+          font-size: .8rem; }
+      nav .nav_wrap ul .active {
+        background: #643a79; }
+
+.home_slider {
+  background: #87509c;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .home_slider h1 {
+    font-size: 2.3rem;
+    color: white;
+    letter-spacing: 1px; }
+  .home_slider .btn_more {
+    background: #eb7d4b;
+    font-size: 1rem;
+    color: white;
+    box-shadow: 0px 5px #df6a34; }
+
+.home_services {
+  background: #17c2a4;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 2rem; }
+  .home_services .services_title h2 {
+    position: relative;
+    margin-bottom: 1rem; }
+    .home_services .services_title h2:before, .home_services .services_title h2:after {
+      content: '';
+      display: block;
+      background: grey;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%); }
+    .home_services .services_title h2:before {
+      height: 3px;
+      width: 60px;
+      bottom: -8px; }
+    .home_services .services_title h2:after {
+      height: 10px;
+      width: 10px;
+      bottom: -12px; }
+  .home_services img {
+    max-width: 150px;
+    margin: 1.5rem 0; }
+
+.home_team {
+  background: #e7f1f8;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #3c4761;
+  padding: 2rem; }
+  .home_team .team_title h2 {
+    position: relative;
+    margin-bottom: 1rem; }
+    .home_team .team_title h2:before, .home_team .team_title h2:after {
+      content: '';
+      display: block;
+      background: grey;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%); }
+    .home_team .team_title h2:before {
+      height: 3px;
+      width: 60px;
+      bottom: -8px; }
+    .home_team .team_title h2:after {
+      height: 10px;
+      width: 10px;
+      bottom: -12px; }
+  .home_team img {
+    max-width: 200px;
+    margin: 20px 0;
+    border-radius: 50%; }
+  .home_team .team_items .title {
+    font-size: .9rem;
+    color: #8cd1ee; }
+  .home_team .team_items i {
+    display: inline-block;
+    color: white;
+    border-radius: 50%;
+    background-color: lightgrey;
+    height: 30px;
+    line-height: 30px;
+    margin: auto 5px;
+    width: 30px;
+    font-size: 15px;
+    text-align: center; }
+
+.home_skill {
+  background: white;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #3c4761;
+  padding: 2rem; }
+  .home_skill .skill_title h2 {
+    position: relative;
+    margin-bottom: 1rem; }
+    .home_skill .skill_title h2:before, .home_skill .skill_title h2:after {
+      content: '';
+      display: block;
+      background: grey;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%); }
+    .home_skill .skill_title h2:before {
+      height: 3px;
+      width: 60px;
+      bottom: -8px; }
+    .home_skill .skill_title h2:after {
+      height: 10px;
+      width: 10px;
+      bottom: -12px; }
+  .home_skill .skill_item p {
+    font-weight: bold; }
+
+.home_portfolio {
+  background: #ffdd99;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #3c4761;
+  padding: 2rem; }
+  .home_portfolio .portfolio_title h2 {
+    position: relative;
+    margin-bottom: 1rem; }
+    .home_portfolio .portfolio_title h2:before, .home_portfolio .portfolio_title h2:after {
+      content: '';
+      display: block;
+      background: grey;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%); }
+    .home_portfolio .portfolio_title h2:before {
+      height: 3px;
+      width: 60px;
+      bottom: -8px; }
+    .home_portfolio .portfolio_title h2:after {
+      height: 10px;
+      width: 10px;
+      bottom: -12px; }
+  .home_portfolio .portfolio_title .portfolio_btn {
+    background: #ebc985;
+    line-height: 20px;
+    margin: 0 5px;
+    min-width: 80px;
+    color: #3c4761; }
+    .home_portfolio .portfolio_title .portfolio_btn:hover {
+      background: white; }
+  .home_portfolio .btn_portfolio_more {
+    background: #17c2a4;
+    font-size: 1rem;
+    color: white;
+    box-shadow: 0px 5px #14a58c; }
+  .home_portfolio img {
+    width: 100%; }
+
+.home_comment {
+  background: #d74680;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 2rem; }
+  .home_comment .comment_title h2 {
+    position: relative;
+    margin-bottom: 1rem; }
+    .home_comment .comment_title h2:before, .home_comment .comment_title h2:after {
+      content: '';
+      display: block;
+      background: grey;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%); }
+    .home_comment .comment_title h2:before {
+      height: 3px;
+      width: 60px;
+      bottom: -8px; }
+    .home_comment .comment_title h2:after {
+      height: 10px;
+      width: 10px;
+      bottom: -12px; }
+  .home_comment .client img {
+    max-width: 80px;
+    border-radius: 50%; }
+  .home_comment .client p {
+    text-align: left;
+    margin: 0; }
+  .home_comment .client .client_comment {
+    font-style: italic; }
+  .home_comment .client .client_name {
+    font-weight: bold; }
+  .home_comment .client .client_title {
+    color: yellow;
+    font-size: .8rem; }
+
+.home_contact {
+  background: #3c5499;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 2rem; }
+  .home_contact .contact_title h2 {
+    position: relative;
+    margin-bottom: 1rem; }
+    .home_contact .contact_title h2:before, .home_contact .contact_title h2:after {
+      content: '';
+      display: block;
+      background: grey;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%); }
+    .home_contact .contact_title h2:before {
+      height: 3px;
+      width: 60px;
+      bottom: -8px; }
+    .home_contact .contact_title h2:after {
+      height: 10px;
+      width: 10px;
+      bottom: -12px; }
+  .home_contact .btn_contact_more {
+    background: #30bae7;
+    font-size: 1rem;
+    color: white;
+    box-shadow: 0px 5px #299ec5; }
+  .home_contact .form-control {
+    background: #273a71; }
+  .home_contact ::placeholder {
+    color: white; }
+
+.footer {
+  background: #344b8e;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .footer a {
+    width: 14%;
+    color: white;
+    font-size: 1.3rem;
+    margin: 5px 20px; }
+
+/*# sourceMappingURL=main.css.map */
