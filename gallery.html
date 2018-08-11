@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>A.L.L.F.I.T</title>
+
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="css/full-slider.css" rel="stylesheet">
+  <link href="css/gallery.css" rel="stylesheet">
+  <link href="css/sidemenu.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+    
+  <div class="sidemenu" id=sidemenu onclick="closemenu()">
+      <div class="container-fluid sidemenu-wrap-pc">
+          <div class="sidemenu-item  home d-inline-flex" onmouseover="sidemenuoverhome()" onmouseout="sidemenuouthome()"><a href=index.html id=sidemenu-home class=sidemenu-p>Home</a><img id=img-home src="images/sidemenu.png"></div>
+          <div class="sidemenu-item about d-inline-flex" onmouseover="sidemenuoverabout()" onmouseout="sidemenuoutabout()"><a href=about.html id=sidemenu-about  class=sidemenu-p>About</a><img id=img-about src="images/sidemenu2.jpg"></div>
+          <div class="sidemenu-item services d-inline-flex" onmouseover="sidemenuoverservices()" onmouseout="sidemenuoutservices()"><a href=service.html id=sidemenu-services class=sidemenu-p>Services</a><img id=img-services src="images/sidemenu3.jpg"></div>
+          <div class="sidemenu-item gallery d-inline-flex" onmouseover="sidemenuovergallery()" onmouseout="sidemenuoutgallery()"><a href=gallery.html id=sidemenu-gallery  class=sidemenu-p>Gallery</a><img id=img-gallery src="images/sidemenu4.jpg"></div>
+      </div>
+      <div class="container-fluid sidemenu-wrap-touch">
+          <p class=close onclick="closemenu()">X</p>
+        <div class="sidemenu-item-touch home d-inline-flex"><a class=menu-home-touch href=index.html><img id=img-home class="img-fluid sideimg" src="images/sidemenu.png"></a></div>
+        <div class="sidemenu-item-touch about d-inline-flex"><a class=menu-about-touch href=about.html> <img id=img-about class="img-fluid sideimg"src="images/sidemenu2.jpg"></a></div>
+        <div class="sidemenu-item-touch services d-inline-flex"><a class=menu-services-touch href=service.html> <img id=img-services class="img-fluid sideimg" src="images/sidemenu3.jpg"></a></div>
+        <div class="sidemenu-item-touch gallery d-inline-flex"><a class=menu-gallery-touch href=gallery.html> <img id=img-gallery class="img-fluid sideimg" src="images/sidemenu4.jpg"></a></div>
+      </div>
+  </div>
+  <button class="sidemenubtn" onclick="showmenu()"><i class="fa fa-align-justify" style="font-size:26px;color:white;"></i></button>
+  <img class="brand img-fluid" src="images/logo.png" width=100px>
+  
+<div class="slider-wrap">
+    <div class="slider-btn">
+            <button class=btn onclick=back() id=back><i class="fa fa-angle-double-left"></i></button><span id=slider-counter> 1 </span>/3<button class="btn" id=next onclick=next()><i class="fa fa-angle-double-right"></i></button>
+    </div>
+    <div class="slider">
+        <table>
+            <tr>
+                <td>
+                    <div class="slider-item">
+                        <img src="images/slide1.jpg" class="slider-hinh active" id="slider1-hinh1" />
+                        <img src="images/slide2.jpg" class="slider-hinh slider-left" id="slider1-hinh2" />
+                        <img src="images/slide3.jpg" class="slider-hinh slider-left" id="slider1-hinh3" />
+                    </div>
+                </td>
+                <td>
+                    <div class="slider-item">
+                        <img src="images/phase_1.jpg" class="slider-hinh active" id="slider2-hinh1" />
+                        <img src="images/phase_2.jpg" class="slider-hinh slider-left" id="slider2-hinh2" />
+                        <img src="images/phase_3.jpg" class="slider-hinh slider-left" id="slider2-hinh3" />
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="slider-item">
+                        <img src="images/phase_1.jpg" class="slider-hinh active" id="slider3-hinh1" />
+                        <img src="images/phase_2.jpg" class="slider-hinh slider-right" id="slider3-hinh2" />
+                        <img src="images/phase_3.jpg" class="slider-hinh slider-right" id="slider3-hinh3" />
+                    </div>
+                </td>
+                <td>
+                    <div class="slider-item">
+                        <img src="images/slide1.jpg" class="slider-hinh active" id="slider4-hinh1" />
+                        <img src="images/slide2.jpg" class="slider-hinh slider-right" id="slider4-hinh2" />
+                        <img src="images/slide3.jpg" class="slider-hinh slider-right" id="slider4-hinh3" />
+                    </div>
+                </td>
+            </tr>
+        </table> 
+    </div>
+</div>
+
+  
+    <button class="totop bg-dark" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" id="topbtn" title="Go to top"><i class="fa fa-chevron-circle-up" style="font-size:24px"> Top</i></button>
+    <script src="js/jquery-3.3.1.js"></script>
+    <!-- <script src="js/popper.min.js"></script> -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

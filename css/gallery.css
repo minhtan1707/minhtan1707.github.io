@@ -1,0 +1,133 @@
+html, body {
+    font-family:constantia;
+    position:relative;
+    background-color:rgba(64, 49, 49, 0.531);
+    background-image: url("../images/gallery-bg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  
+.brand{
+    background-color:transparent;
+    position:absolute;
+    top:20px;
+    right:30px;
+    z-index:100;
+}
+  
+  .container{
+    max-width:940px;
+    overflow: hidden;
+  }
+  .navmenu {
+    z-index: 1;
+    
+  }
+  .navbar{
+    background-color:#101828;
+    max-width:100%;
+  }
+  .sidemenu{
+    cursor: url('../images/x-cursor.png'),auto;
+  }
+.slider-wrap{
+    background:rgba(61, 48, 48, 0.612);
+    width:100vw;
+    height:100vh;
+    padding:80px 15% 80px 15%;
+    position:relative;
+    
+}
+.slider{
+
+    width:100%;
+    height:100%;
+}
+.slider-btn{
+    position:absolute;
+    right:100px;
+    bottom:20px;
+    font-size:1.2rem;
+    color:white;
+}
+.slider-btn button{
+    display:inline-block;
+    margin:0 10px;
+    background-color:transparent;
+    color:white;
+    font-size:26px;
+}
+.slider-btn button:disabled{
+    color:rgb(90, 90, 90);
+}
+.slider-item{
+
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    position:relative;
+
+}
+table{
+
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}
+table tr td{
+    width:45%;
+    height:45%;
+}
+.slider-hinh{
+
+    width:100%;
+    transition:1s;
+}
+.active{
+    position:absolute;
+    top:0;
+    
+}
+.slider-left{
+    position:absolute;
+    top:0;
+    transform: translateX(105%);
+}
+.slider-right{
+    position:absolute;
+    top:0;
+    transform: translateX(-105%);
+}
+.sidemenu{
+    position:fixed;
+    background-color:#101828e5;
+    z-index:1500;
+    width:100vw;
+    height:100vh;
+    transition:1s;
+    transform:translateX(-100vw);
+}
+.sidemenubtn{
+    position:absolute;
+    left:15px;
+    top:340px;
+    z-index:1400;
+    padding:3px 6px;
+    background-color:transparent;
+    border:none;
+}
+@media (max-width:1050px){
+    .sidemenubtn{
+        position:absolute;
+        top:20px;
+        left:30px;
+    }
+    .slider-wrap{
+        padding:100px 0 75px 0;
+    }
+    .slider-btn{
+        bottom:5px;
+        right:5px;
+    }
+}
